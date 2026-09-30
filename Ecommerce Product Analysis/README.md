@@ -4,8 +4,7 @@
 
 This project analyzes e-commerce session and order data to understand **sales performance, product performance, customer conversion, acquisition channels, cart abandonment, and purchasing behavior**.
 
-The analysis was performed using **PostgreSQL** to transform raw data into business insights that can support data-driven decision-making.
-
+The project uses PostgreSQL and SQL for data extraction and analysis, Python for exploratory analysis and visualization, and Power BI to develop an interactive business dashboard
 ---
 
 ## 🎯 Business Problem
@@ -16,8 +15,7 @@ This project aims to answer questions such as:
 
 - How is the business performing overall?
 - Which product categories generate the most revenue?
-- Which SKUs contribute most to revenue?
-- Which acquisition channels perform best?
+- How do acquisition channels differ in traffic, conversion, revenue, and order value
 - How does conversion differ between devices?
 - How significant is cart abandonment?
 - How does discount usage relate to order value?
@@ -27,10 +25,14 @@ This project aims to answer questions such as:
 
 ## 🛠️ Tools & Technologies
 
-- **PostgreSQL**
-- **SQL**
-- **pgAdmin**
-- **Git & GitHub**
+PostgreSQL
+SQL
+Python
+Pandas
+Matplotlib
+Power BI
+pgAdmin
+Git & GitHub
 
 ### SQL Techniques Used
 
@@ -51,7 +53,7 @@ This project aims to answer questions such as:
 
 The project contains two datasets:
 
-### `orders`
+### `orders_clean`
 
 Contains completed purchasing-session information, including:
 
@@ -65,7 +67,7 @@ Contains completed purchasing-session information, including:
 - Order value
 - Units purchased
 
-### `websession`
+### `websessions_clean`
 
 Contains website session and conversion information, including:
 
@@ -201,14 +203,18 @@ Based on the analysis, the business could:
 ecommerce-product-analysis/
 │
 ├── data/
-│   ├── orders.csv
-│   └── websession.csv
+│   ├── orders_clean.csv
+│   └── web_sessions_clean.csv
 │
 ├── sql/
 │   └── ecommerce_analysis.sql
 │
+├── python/
+│   └── ecommerce_analysis.ipynb
+│
 ├── insights/
-│   └── business_insights.md
+│   ├── business_insights.md
+│   └── ecommerce_analysis_dashboard.pbix
 │
 └── README.md
 ```
