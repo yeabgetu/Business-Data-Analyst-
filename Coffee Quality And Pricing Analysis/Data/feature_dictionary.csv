@@ -1,0 +1,37 @@
+column,stage,data_type,description,prediction_timing,usable_as_feature_for_quality,usable_as_feature_for_sensory,usable_as_feature_for_price
+record_id,Metadata,string,Unique primary key for each observation row.,N/A,False,False,False
+lot_id,Metadata,string,Entity identifier representing the physical agricultural lot. Use for GroupKFold validation.,N/A,False,False,False
+harvest_season,Environment,category,Agricultural harvest season window.,Pre-harvest,True,True,True
+harvest_calendar_year,Environment,integer,Calendar year corresponding to the harvest month.,Pre-harvest,True,True,True
+harvest_month,Environment,integer,Calendar month of harvest pickings.,Pre-harvest,True,True,True
+country_of_origin,Farm,category,Producing country.,Pre-harvest,True,True,True
+farm_type,Farm,category,Operational and organizational structure of the farm.,Pre-harvest,True,True,True
+farm_size_hectares,Farm,float,Total cultivated coffee area in hectares.,Pre-harvest,True,True,True
+tree_age_years,Farm,float,Mean age of producing coffee trees.,Pre-harvest,True,True,True
+altitude_mean_meters,Environment,float,Mean plantation altitude above sea level.,Pre-harvest,True,True,True
+species,Farm,category,Botanical species (Arabica vs. Robusta).,Pre-harvest,True,True,True
+avg_temp_c,Environment,float,Mean ambient growing season temperature in Celsius.,Pre-harvest,True,True,True
+avg_annual_rainfall_mm,Environment,float,Annual cumulative precipitation in millimeters.,Pre-harvest,True,True,True
+humidity_pct,Environment,float,Mean ambient relative humidity percentage.,Pre-harvest,True,True,True
+processing_method,Processing,category,Primary post-harvest method.,Post-harvest,True,True,True
+drying_method,Processing,category,Drying apparatus.,Post-harvest,True,True,True
+drying_duration_days,Processing,float,Days required to bring parchment/cherry to storage moisture.,Post-harvest,True,True,True
+storage_months,Storage,integer,Duration green coffee remained in warehouse before evaluation.,Pre-export,True,True,True
+storage_conditions,Storage,category,Warehouse environmental control status.,Pre-export,True,True,True
+bean_size_screen,Physical,integer,Screen size classification integer (13-20).,Pre-export,True,True,True
+moisture_pct,Physical,float,Green coffee moisture content percentage.,Pre-export,True,True,True
+bean_density_g_ml,Physical,float,Bulk density of green beans in g/mL.,Pre-export,True,True,True
+defect_rate_pct,Physical,float,Percentage of primary and secondary physical defects.,Pre-export,True,True,True
+traceability_level,Commercial,category,Sourcing resolution.,Pre-export,False,False,True
+certification,Commercial,category,Market certifications held by the lot.,Pre-export,False,False,True
+intended_buyer_segment,Commercial,category,Targeted market channel known prior to sale.,Pre-export,False,False,True
+lot_size_kg,Commercial,float,"Offered marketed lot weight in kilograms; individual farm lots are constrained by modeled production capacity, while cooperative lots may represent aggregated production.",Pre-export,False,False,True
+roast_level,Sensory,category,Roast protocol applied for sensory evaluation.,Evaluation,False,True,False
+acidity_score,Sensory,float,Synthetic descriptive sensory intensity benchmark score for acidity.,Outcome,False,False,False
+sweetness_score,Sensory,float,Synthetic descriptive sensory intensity benchmark score for sweetness.,Outcome,False,False,False
+body_score,Sensory,float,Synthetic descriptive sensory intensity benchmark score for mouthfeel/body.,Outcome,False,False,False
+aroma_score,Sensory,float,Synthetic descriptive sensory intensity benchmark score for dry/wet fragrance and aroma.,Outcome,False,False,False
+flavor_score,Sensory,float,Synthetic descriptive sensory intensity benchmark composite score for flavor profile.,Outcome,False,False,False
+coffee_quality_score,Target,float,Synthetic continuous coffee-quality target representing an affective quality assessment benchmark.,Outcome,False,False,False
+quality_grade,Target,category,Synthetic benchmark grade derived from quantile-based quality-score bands.,Outcome,False,False,False
+price_usd_per_kg,Target,float,Synthetic green-coffee transaction value corresponding to the marketed lot during its modeled commercial period.,Outcome,False,False,False
