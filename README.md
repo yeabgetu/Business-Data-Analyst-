@@ -42,7 +42,7 @@ Economics graduate turning business data into decisions. I combine SQL, Python a
 ---
 
 ## Certifications
-See [Certifications](./Certifications).
+See (./Certifications)
 
 ## Contact
-[LinkedIn](https://www.linkedin.com/in/yeab-getu-963394214/) · [Email](mailto:you@example.com)
+[LinkedIn](https://www.linkedin.com/in/yeab-getu-963394214/) · [Email](mailto:yeabgetuu@gmail.com)
