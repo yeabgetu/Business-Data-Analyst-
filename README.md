@@ -1,63 +1,48 @@
-# Hi, I'm Yeab Getu 👋
+# Yeab Getu — Data Analyst
 
-### Data Analyst | SQL • Excel • Power BI • Python
+Economics graduate turning business data into decisions. I combine SQL, Python and Power BI with the econometrics training from my degree, so I can build a dashboard and also test whether a pattern actually holds.
 
-I'm an **Economics graduate** with experience in data analytics. My background in economics has given me a strong foundation in **quantitative analysis, statistics, research, and problem-solving**.
+**Core:** SQL (PostgreSQL · CTEs · window functions) · Python (pandas, statsmodels, matplotlib) · Power BI (data modeling, DAX)
+**Also use:** Excel · Tableau · Stata · SPSS · Git
 
-I enjoy working with data to uncover patterns, understand business performance, and turn analysis into **clear, actionable insights**.
+---
 
-## 🎓 Background
+## Projects
 
-**B.A. Economics**
+### ☕ Coffee Quality & Pricing Intelligence
+**Python · pandas · statsmodels · regression**
 
-My economics background gives me a strong foundation in quantitative analysis, research, statistics, and understanding how data connects to real-world business decisions.
+**Question:** What drives coffee price, and which high-quality lots look underpriced?
 
-## 🚀 Current Focus
+- Cleaned 35,700 records down to 35,000 unique lots (deduplication, revision handling, country-level imputation)
+- **Quality alone explains only ~11% of price** (r = 0.34). Buyer segment matters more: specialty lots average $9.97/kg vs $3.88 for commodity, with only a 4-point quality gap.
+- Built a pricing benchmark from quality, origin, processing, certification and buyer segment (R² = 0.79)
+- **Flagged 2,578 high-quality lots (29%) priced ≥10% below benchmark.** Kenya (33%) and Ethiopia (31%) had the highest opportunity rates.
+- Quality model (R² = 0.85) with VIF checks and HC3 robust errors after a Breusch-Pagan test
 
-I'm currently building practical data analytics projects using:
+**Use case:** a screening tool for buyers to prioritize sourcing and negotiation.
 
-**SQL → Excel → Power BI → Python → APIs → Automation**
-
-My goal is to help businesses **understand their data, identify opportunities, and make better decisions.**
-
-## 🛠️ Skills
-
-- **SQL:** PostgreSQL, CTEs, Subqueries, Window Functions
-- **Excel:** Data Cleaning, Analysis, Pivot Tables, Dashboards
-- **Power BI:** Data Modeling, DAX, Interactive Dashboards
-- **Python:** Data Cleaning, Analysis, Visualization
-- **APIs:** Data Collection and Integration
-- **Tools:** Git, GitHub, Power Query
-
-## 📊 Featured Projects
+→ [View project](./Coffee%20Quality%20And%20Pricing%20Analysis)
 
 ### 🛒 E-Commerce Product Analysis
-**SQL**
+**PostgreSQL · Python · Power BI**
 
-Analysis of e-commerce sales, customer behavior, and product performance to identify business trends and opportunities.
+**Question:** Where is the store losing revenue between visit and purchase?
 
-### ☕ Coffee Shop Analysis
-**Excel / Power BI**
+- Analyzed 25,000 sessions, 3,037 orders and 400 SKUs with SQL (CTEs, window functions, conditional aggregation)
+- **64% cart abandonment:** 5,455 of 8,492 carts never converted
+- **Mobile converts 2.4 points lower than desktop** (11.0% vs 13.4%) and abandons more
+- Paid Search drove the most revenue; Organic brought the most traffic but converted worst (11.6%)
+- Built an interactive Power BI dashboard covering KPIs, channels, devices and monthly trends
 
-Analysis of coffee shop sales, product performance, customer behavior, branch performance, and time-based trends.
+**Use case:** points the team to checkout and mobile UX as the biggest revenue levers.
 
-### 🎬 Netflix Content Analysis
-**Power BI / Power Query**
+→ [View project](./Ecommerce%20Product%20Analysis)
 
-Analysis of Netflix movies and TV shows to explore genres, ratings, content distribution, and trends.
+---
 
-### 🌐 API Data Analysis
-**Python / SQL**
+## Certifications
+See [Certifications](./Certifications).
 
-Collection and analysis of external data through APIs to identify trends and generate useful business insights.
-
-## 📈 My Analytics Journey
-
-**Economics → SQL → Excel → Power BI → Python → APIs → Automation**
-
-I'm continuously building projects, improving my analytical skills, and developing a portfolio focused on solving **real-world business problems with data**.
-
-## 📫 Connect With Me
-
-- **GitHub:** [@yeabgetu](https://github.com/yeabgetu)
-- **LinkedIn:** https://www.linkedin.com/in/yeab-getu-963394214/
+## Contact
+[LinkedIn](https://www.linkedin.com/in/yeab-getu-963394214/) · [Email](mailto:you@example.com)
