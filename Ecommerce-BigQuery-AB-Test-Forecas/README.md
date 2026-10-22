@@ -94,10 +94,10 @@ Channels: Organic, Paid Search, Paid Social, Email, Affiliate
 
 ### Business impact
 
-- Checkout gap: ~**121 orders / ~[currency]7,800 per year** (~4% of revenue); closing half ≈ [currency]325/month
+- Checkout gap: ~**121 orders / ~$7,800 per year** (~4% of revenue); closing half ≈ $325/month
 - About half of that loss comes from Paid Social mobile traffic
 - **Larger opportunity:** mobile add-to-cart is 32.0% vs 36.0% (p < 0.001). The full-funnel mobile
-  gap is worth ~314 orders / ~[currency]20,300 per year
+  gap is worth ~314 orders / ~$20,300 per year
 
 ### Forecast (BigQuery ML ARIMA_PLUS)
 
