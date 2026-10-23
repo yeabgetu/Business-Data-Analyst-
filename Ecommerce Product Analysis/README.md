@@ -1,4 +1,6 @@
 # 🛒 E-Commerce Product Analysis
+<img width="1190" height="655" alt="Ecommerce Analysis Dashboard" src="https://github.com/user-attachments/assets/e32072aa-2728-4b26-ba8a-4ba8251c0bfc" />
+
 
 ## 📌 Project Overview
 
@@ -218,7 +220,10 @@ ecommerce-product-analysis/
 │
 └── README.md
 ```
-
+## Phase 2: Statistical testing & forecasting
+I extended this project in BigQuery: the mobile conversion gap is statistically significant
+(34.3% vs 37.2%, p ≈ 0.005) and concentrated in Paid Social traffic.
+→ [See Phase 2](./Ecommerce-BigQuery-AB-Test-Forecas)
 ---
 
 ## 🚀 Project Outcome
