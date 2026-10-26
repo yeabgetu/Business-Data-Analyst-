@@ -56,7 +56,8 @@ Economics graduate turning business data into decisions. I combine SQL, Python a
 **Use case:** points the team to mobile product pages and the Paid Social checkout journey, with a randomized A/B test to confirm the fix.
 
 → [View project](./Ecommerce-BigQuery-AB-Test-Forecas)
-<img width="1187" height="650" alt="dashboard_ab_page png" src="https://github.com/user-attachments/assets/bbbb2bde-5eeb-4299-8031-f01459c164e8" />
+<img width="1195" height="665" alt="Screenshot 2026-10-26 160457" src="https://github.com/user-attachments/assets/36aa64e3-6754-4bb4-a5ba-7ebe5518fe40" />
+
 
 
 ---
