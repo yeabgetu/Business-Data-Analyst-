@@ -4,7 +4,8 @@ An extension of my PostgreSQL + Power BI e-commerce project. I migrated the data
 validated the migration, statistically tested whether mobile checkout underperforms desktop,
 quantified the revenue impact, and forecast monthly revenue with BigQuery ML.
 
-<img width="1187" height="650" alt="dashboard_ab_page png" src="https://github.com/user-attachments/assets/22e46822-f068-41e1-8b7a-46d3433485fd" />
+<img width="1195" height="665" alt="Screenshot 2026-10-26 160457" src="https://github.com/user-attachments/assets/b3cd683a-26b5-431d-8e04-97de0af46852" />
+
 
 
 ---
@@ -111,7 +112,7 @@ Channels: Organic, Paid Search, Paid Social, Email, Affiliate
 - Revenue showed no meaningful trend or seasonality in 2025, so the forecast is effectively a stable
   run-rate of ~16,300 per month
 
-<img width="1188" height="659" alt="forecast_chart png" src="https://github.com/user-attachments/assets/f01fda2c-64ad-49ba-a289-4fabb7414a05" />
+<img width="1189" height="659" alt="Screenshot 2026-10-26 160701" src="https://github.com/user-attachments/assets/f18b2adb-4f96-4d29-a247-caa72eea6df3" />
 
 
 ### Other findings
